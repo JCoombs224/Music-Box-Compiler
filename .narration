@@ -1,0 +1,108 @@
+decalre html template variable
+add header and body to html_template
+add play button to html template
+add script to html template
+add ending tags to html_template
+
+declare variable to store the complied code
+
+declare variable for code output text box
+
+declare function to play the notes inputted
+declare variable that contains the text from input textBox
+declare variable for bar that shows the current note being played
+declare variable for play symbol when the song is being played
+add 'play' class to the play symbol variable that makes it appear
+]
+] display the bar that shows the current note being played
+log the song inputted to the console
+declare a variable that holds the lines of text from the input textbox
+log the lines to the console
+set the sound delay to 0
+add to the code output
+
+declare a LOOP that continues to play notes while there is another line of text
+
+    log the current note line to the console
+    after every line add an additive delay based on the line number to the next note to be played
+    declare a variable that has the position of the play bar
+
+    IF the current line at position 0 has the char 'E' run the following:
+    ]
+    ] log the note being played
+    ] set a timeout for the note being played based on the sound delay variable
+    ] play the 'E' note
+    ] set delay to the sound delay variable
+    ] add the timeout to the outputted code
+    ] add the code that plays the 'E' note to the output code
+    ] add the end of the timeout function to the outputted code
+    ENDIF
+    IF the current line at position 1 has the char 'A' run the following:
+    ]
+    ] log the note being played
+    ] set a timeout for the note being played based on the sound delay variable
+    ] play the 'A' note
+    ] set delay to the sound delay variable
+    ] add the timeout to the outputted code
+    ] add the code that plays the 'A' note to the output code
+    ] add the end of the timeout function to the outputted code
+    ENDIF
+    IF the current line at position 2 has the char 'D' run the following:
+    ]
+    ] log the note being played
+    ] set a timeout for the note being played based on the sound delay variable
+    ] play the 'D' note
+    ] set delay to the sound delay variable
+    ] add the timeout to the outputted code
+    ] add the code that plays the 'D' note to the output code
+    ] add the end of the timeout function to the outputted code
+    ENDIF
+    IF the current line at position 3 has the char 'G' run the following:
+    ]
+    ] log the note being played
+    ] set a timeout for the note being played based on the sound delay variable
+    ] play the 'G' note
+    ] set delay to the sound delay variable
+    ] add the timeout to the outputted code
+    ] add the code that plays the 'G' note to the output code
+    ] add the end of the timeout function to the outputted code
+    ENDIF
+    IF the current line at position 4 has the char 'F' run the following:
+    ]
+    ] log the note being played
+    ] set a timeout for the note being played based on the sound delay variable
+    ] play the 'F' note
+    ] set delay to the sound delay variable
+    ] add the timeout to the outputted code
+    ] add the code that plays the 'F' note to the output code
+    ] add the end of the timeout function to the outputted code
+    ENDIF
+    IF the current line at position 5 has the char 'C' run the following:
+    ]
+    ] log the note being played
+    ] set a timeout for the note being played based on the sound delay variable
+    ] play the 'C' note
+    ] set delay to the sound delay variable
+    ] add the timeout to the outputted code
+    ] add the code that plays the 'C' note to the output code
+    ] add the end of the timeout function to the outputted code
+    ENDIF
+ENDLOOP
+set the play bar movement speed to the number of lines there are in seconds
+set the play bars ending position to the last note in the list
+
+declare a timeout function to return the play bar to the top of the textbox
+    set the play bars position to the top of the textbox
+    set the transition speed of the playbar to the default
+    set the playbar to not be shown
+    remove the 'play' class from the play symbol to make it turn back into a stop symbol
+set the timeout function to the sound delay variable
+
+add timeout function code to output code to turn the play symbol back into a stop symbol
+add timeout time to output code
+add the ending curly brace to the code output
+set the compiled code textbox text to the html template variable and add the code output to the template
+
+
+declare a function that clears the input text box
+    set the input text box to be empty

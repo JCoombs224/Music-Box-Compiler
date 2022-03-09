@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-----------------HEAD----------------->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <title>Music Box</title>
+</head>
+<!-----------------BODY----------------->
+<body>
+    <div class="main-container">
+        <h2>Music Box</h2>
+        <div class="main-wrapper">
+            <div class="play-arrow" id="playArrow"></div>
+            <div class="input-wrapper">
+                <div class="header-wrapper">
+                    <p><b>Enter music notes</b></p> 
+                    <br>
+                    <div id="notesKey">EADGFC</div>
+                </div>
+                <div class="text-wrapper">
+                    <div class="text-bg" id="textBg"></div>
+                    <textarea id="textBox"></textarea>
+                </div>
+                <div id="buttons">
+                    <button id="clear-button" onclick="clear_music()">⟲ Clear Music</button>
+                    <button id="play-button" onclick="play_notes()">▶ Play Music</button>
+                </div>
+            </div>
+            <div class="output-wrapper">
+                <div class="header-wrapper">
+                    <p><b>Output</b></p>
+                    <p><b>Code</b></p>
+                    <br>
+                    <br>
+                </div>
+                <div class="text-wrapper">
+                    <textarea disabled id="compiledCode" rows="20" cols="40"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="watermark">Made By: Jamison Coombs</div>
+</body>
+<!----------------SCRIPTS--------------->
+    <script src="script.js"></script>
+</html>
