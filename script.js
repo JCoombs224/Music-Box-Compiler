@@ -107,3 +107,12 @@ function play_notes(){
 function clear_music(){
     document.getElementById("textBox").value = "";
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    new Audio('sounds/E.wav');
+    new Audio('sounds/A.wav');
+    new Audio('sounds/D.wav');
+    new Audio('sounds/G.wav');
+    new Audio('sounds/F.wav');
+    new Audio('sounds/C.wav');
+}, false);
